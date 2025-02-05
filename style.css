@@ -1,0 +1,540 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    /* color: #6d6d6d; */
+
+
+
+
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
+    background-color: #42005e;
+}
+
+.navbar {
+    font-weight: 500;
+    z-index: 2;
+    /* position:fixed; */
+    margin: 10px;
+    background-color: #42005e;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    width: 100vw;
+    /* border-radius: 20px; */
+
+    /* filter: blur(10px); */
+    .logo {
+        font-size: 35px;
+
+
+
+    }
+}
+
+.options {
+    font-family: sans-serif;
+    padding: 10px;
+    display: flex;
+    gap: 50px;
+    text-align: center;
+
+}
+
+li {
+
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul li:hover {
+    transition: 0.6s ease-in-out;
+    transform: scale(1.05);
+}
+
+
+
+
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 160px;
+    /* border-bottom: 3px dotted #42005e; */
+
+    button {
+        padding: 20px;
+        border-radius: 60px;
+        margin-top: 20px;
+        width: 190px;
+        background-color: #42005e;
+        color: white;
+        font-size: 15px;
+    }
+}
+
+.aboutpara {
+    /* border: 2px solid; */
+    margin-top: 70px;
+    height: auto;
+    width: 500px;
+    font-size: 28px;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.container {
+    /* border-right: 2px dotted purple; */
+    width: 500px;
+    text-align: left;
+    margin-top: 70px;
+    display: grid;
+    justify-content: left;
+
+    img {
+        height: 450px;
+        width: 450px;
+        object-fit: contain;
+        filter: drop-shadow(5px 10px 15px rgb(93, 1, 93));
+        align-items: center;
+        border: 4px solid 42005e;
+        border-radius: 100px;
+        box-shadow: 5px 3px 15px rgb(93, 1, 93);
+    }
+
+    video {
+        height: 450px;
+        width: 450px;
+        z-index: 1;
+
+    }
+
+}
+
+.container h4:nth-child(2) {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 18px;
+    
+}
+
+.container h3:nth-child(3) {
+    color: purple;
+    /* font-family: 'Fira Code', monospace; */
+    font-weight: 800;
+    font-size: 40px;
+    margin: 0 0 0 3%;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 750px;
+    /* animation: type 2s steps() delay iteration-count direction fill-mode; */
+    animation: type 5s steps(40, end) 1s infinite forwards;
+}
+
+@keyframes type {
+    0% {
+        width: 0;
+    }
+
+    1%,
+    99% {
+        border-right: 1px solid rgb(255, 255, 255);
+    }
+
+    100% {
+        border-right: none;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.projectdetail {
+    background-color: #eaeaea;
+    display: grid;
+    margin-left: 20px;
+    border: 2px solid;
+    height: 415px;
+
+    width: 286px;
+    border-radius: 18px;
+    box-shadow: 3px 3px 10px rgb(67, 0, 122);
+    overflow: hidden;
+    margin-bottom: 100px;
+
+
+}
+
+.projectdetail:hover {
+    box-shadow: 1px 1px 5px #6e00b3;
+    transform: scaley(1.05);
+    overflow-y: auto;
+    transition: 0.5s ease-in-out;
+}
+
+.projectdetail img {
+    padding: 8px;
+    border-radius: 18px;
+    width: 270PX;
+    height: 160px;
+    object-fit: cover;
+}
+
+.cap {
+    padding: 0px 20px 0px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+
+}
+
+.cap span {
+    padding: 2px 10px;
+    margin-left: 8px;
+    border: 2px solid #42005e;
+    border-radius: 15px;
+    color: #42005e;
+    font-size: 12px;
+
+
+}
+
+.text h1,
+h3 {
+    /* color: #6e00b3; */
+    font-family: sans-serif;
+    font-size: 12px;
+    margin: 18px;
+    width: fit-content;
+    color: #6d6d6d;
+    /* object-fit: */
+    /* overflow:hidden; */
+
+
+}
+
+.button {
+    text-align: center;
+    margin-bottom: 10px;
+
+
+}
+
+.button button {
+    padding: 10px;
+    width: 80px;
+    background-color: #42005e;
+    border: none;
+    color: #eaeaea;
+    border-radius: 18px;
+    font-size: 10px;
+
+
+
+
+}
+
+.contproject {
+
+    display: flex;
+    /* grid-template-columns: */
+    margin-top: 100px;
+    gap: 40px 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.projectheading {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+    h1 {
+        font-size: 40px;
+        justify-self: center;
+        color: #42005e;
+        /* background-color: #3b0055; */
+    }
+
+    h3 {
+        font-size: 25px;
+        justify-self: center;
+    }
+
+}
+
+
+
+
+/* About */
+
+
+.skilldetails{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap:wrap ;
+    margin-top:80px;
+}
+
+.Skill {
+    background-color: #eaeaea;
+    display: grid;
+    border: 2px solid;
+    height: 415px;
+
+    width: 456px;
+    border-radius: 18px;
+    box-shadow: 3px 3px 10px rgb(67, 0, 122);
+    overflow: hidden;
+    margin-bottom: 100px;
+img{
+    height: 25px;
+    width: 25px;
+    object-fit: contain;
+}
+
+
+}
+
+.Skill:hover {
+    box-shadow: 1px 1px 5px #6e00b3;
+    transform: scaley(1.05);
+    overflow-y: auto;
+    transition: 0.5s ease-in-out;
+}
+
+.cap {
+    justify-content:center;
+    align-items:flex-start;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+.cap span { 
+    box-shadow: 3px 3px 6px inset;
+    
+    /* padding: 2px 10px; */
+    margin-left: 8px;
+    border: 2px solid #42005e;
+    border-radius: 15px;
+    color: #42005e;
+    font-size: 20px;
+    height: 50px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.text h1,h4,
+h3 {
+    /* color: #6e00b3; */
+    font-family: sans-serif;
+    font-size: 50px;
+    margin-top:13px;
+    width: fit-content;
+    color: #6d6d6d;
+    justify-self: center;
+    /* object-fit: */
+    /* overflow:hidden; */
+
+
+}
+
+.button {
+    text-align: center;
+    margin-bottom: 10px;
+
+
+}
+
+.button button {
+    padding: 10px;
+    width: 80px;
+    background-color: #42005e;
+    border: none;
+    color: #eaeaea;
+    border-radius: 18px;
+    font-size: 10px;
+
+
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1130px) {
+    .navbar {
+        /* font-weight: 200; */
+        z-index: 1;
+        /* position:fixed; */
+        margin: 10px;
+        background-color: #42005e;
+
+        display: grid;
+        gap: 5px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 65px;
+        width: 600xp;
+        /* gap: 10px; */
+        /* font-size: 18px; */
+        /* border-radius: 20px; */
+
+        /* filter: blur(10px); */
+        .logo {
+            /* margin-left: 200px; */
+            font-size: 25px;
+            display: flex;
+            justify-self: center
+
+
+
+        }
+        .options {
+            font-family: sans-serif;
+            padding: 10px;
+            display: flex;
+            gap: 10px;
+            text-align: center;
+            font-size: 15px;
+        
+        }
+    }
+
+    .info {
+        display: grid;
+        flex-wrap: wrap;
+
+        justify-content: center;
+        gap: 2px;
+        /* border-bottom: 3px dotted #42005e; */
+        margin: 30px;
+
+        button {
+            display: grid;
+            justify-self: center;
+            padding: 20px;
+            border-radius: 60px;
+            margin-top: 20px;
+            width: 120px;
+
+            background-color: #42005e;
+            color: white;
+            font-size: 10px;
+        }
+    }
+
+    .aboutpara {
+        /* border: 2px solid; */
+        margin-top: 70px;
+        /* margin-left: 10px; */
+        height: auto;
+        width: 350px;
+        font-size: 15px;
+
+
+
+
+        }
+        .container {
+            width: 350px;
+            text-align: center;
+            margin-top: 60px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            justify-content: center;
+    
+            img {
+                height: 300px;
+                width: 300px;
+            
+            }
+        }
+        .container h4:nth-child(2) {
+            font-size: 25px;
+            margin-top: 30px;
+        }
+        
+        .container h3:nth-child(3) {
+            font-weight: 800;
+            font-size: 30px;
+            margin: 0 0 0 3%;
+            text-align: center;
+            white-space: nowrap;
+            overflow: hidden;
+            width: 750px;
+            /* animation: type 2s steps() delay iteration-count direction fill-mode; */
+            animation: type 5s steps(40, end) 1s infinite forwards;
+        }
+        .Skill{
+            height: 350px;
+            width: 350px;
+        }
+        .skilldetails{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 0px;
+        }
+
+    
+}
