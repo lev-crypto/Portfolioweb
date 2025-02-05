@@ -338,17 +338,6 @@ img{
     width: 25px;
     object-fit: contain;
 }
-
-
-}
-
-.Skill:hover {
-    box-shadow: 1px 1px 5px #6e00b3;
-    transform: scaley(1.05);
-    overflow-y: auto;
-    transition: 0.5s ease-in-out;
-}
-
 .cap {
     justify-content:center;
     align-items:flex-start;
@@ -358,7 +347,6 @@ img{
     
 
 }
-
 .cap span { 
     box-shadow: 3px 3px 6px inset;
     
@@ -391,6 +379,19 @@ h3 {
 
 
 }
+
+}
+
+.Skill:hover {
+    box-shadow: 1px 1px 5px #6e00b3;
+    transform: scaley(1.05);
+    overflow-y: auto;
+    transition: 0.5s ease-in-out;
+}
+
+
+
+
 
 .button {
     text-align: center;
