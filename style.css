@@ -413,6 +413,98 @@ h3 {
 
 
 }
+.sideline{
+    margin-top: 50px;
+    position: relative;
+    display: grid;
+    margin-bottom: 10px;
+img{
+    width: 20px;
+    height: 20px;
+    margin-left: 0px;
+}
+.sidedot{
+    display: grid;
+    margin-left: 24px;
+    margin-top: 100px;
+    gap: 300px;
+    position: fixed;
+    z-index: 2;
+}
+
+aside{
+    position: fixed;
+    border-left: 5px solid #42005e;
+    margin-left: 30px;
+    margin-top: 50px;
+    display: grid;
+    height: 500px;
+    opacity: 0.5;
+    margin-bottom: 20px;
+}
+}
+.roud:hover{
+    transform: scale(1.2);
+    transition: 0.7s ease-in-out;
+    opacity: 1;
+    cursor: pointer;
+
+
+}
+.experienced{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-right: 50px;
+    gap: 90px;
+}
+.cardside{
+    display: grid;
+    align-items: center;
+    width: auto;
+    padding: 20px;
+    border: 2px solid #42005e;
+    border-radius: 10px;
+    height: 190px;
+    box-shadow: 2px 2px 5px #6e00b3;
+    transition: 0.7s ease-in-out;
+    overflow-y: auto;
+    color: #6d6d6d;
+}
+.cardside:hover{
+    box-shadow: 2px 2px 5px #42005e;
+    transform: scaleY(1.1);
+}
+.ryvel ,.technoplannar{
+    display: flex;
+    gap: 10px;
+img{
+    border-radius: 8px;
+    height: 25px;
+    width: 45px;
+    object-fit: contain;
+}
+
+}
+.innertechnoplannar, .innerryvel {
+    display: grid;
+    gap: 3px;
+.firstpara{
+    font-size: 1.4rem;
+}
+.secondpara{
+    font-size: 1rem;
+}
+.thirdpara{
+    font-size: 0.8rem;
+}
+    
+    
+
+
+}
 
 
 
@@ -539,6 +631,9 @@ h3 {
         .text{
             justify-self: center;
         }
+        }
+        .sideline{
+            margin-top: 0px;
         }
 
     
